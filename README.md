@@ -1,4 +1,4 @@
-# AutoMetrics 🚗📊
+# AutoMetrics 
 
 Sistema de monitoreo y observabilidad para una lavadero de autos (detailing), implementado con **Prometheus**, **Grafana**, **PostgreSQL** y **Docker**.
 
