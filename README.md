@@ -56,6 +56,10 @@ autometrics/
 | GET | `/api/autos` | Autos registrados |
 | GET | `/api/citas` | Citas con detalle de auto y servicio |
 | POST | `/api/citas` | Crear nueva cita |
+| PUT | `/api/citas/:id` | Actualizar estado de una cita |
+| DELETE | `/api/citas/:id` | Eliminar una cita |
+| PUT | `/api/autos/:id` | Actualizar datos de un auto |
+| DELETE | `/api/autos/:id` | Eliminar un auto |
 | GET | `/api/stats` | Estadísticas generales (negocio) |
 | GET | `/api/lento` | Endpoint simulando procesamiento pesado (1-3s) |
 | GET | `/metrics` | Métricas en formato Prometheus |
