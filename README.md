@@ -102,7 +102,7 @@ docker-compose ps
 ### 3. Acceder a los servicios
 - **API:** http://localhost:3000
 - **Prometheus:** http://localhost:9090
-- **Grafana:** http://localhost:3001 (usuario: `admin`, contraseña: `admin`)
+- **Grafana:** http://localhost:3001 
 
 ### 4. Generar tráfico sintético
 ```bash
@@ -158,11 +158,10 @@ El dashboard **AutoMetrics Dashboard** se carga automáticamente con 7 paneles:
 
 ---
 
-## Puntos bonus implementados
+## implementaciones extra
 
-- Métricas personalizadas de negocio (`autometrics_citas_*`)
-- Histogramas con percentiles (p95)
-- Dashboard con 7 paneles (mínimo requerido: 3)
-- Dashboard provisionado automáticamente (no requiere configuración manual)
-- PostgreSQL como base de datos real
-- 7 endpoints en la API (mínimo requerido: 3)
+Además de los requisitos mínimos se agregaron endpoints PUT y DELETE para
+actualizar y eliminar citas y autos, métricas de negocio propias de la
+aplicación para rastrear el estado de las citas, histogramas con percentil 95
+para análisis de latencia, y el dashboard de Grafana se provisiona
+automáticamente sin configuración manual.
