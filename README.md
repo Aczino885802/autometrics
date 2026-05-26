@@ -150,7 +150,7 @@ El dashboard **AutoMetrics Dashboard** se carga automáticamente con 7 paneles:
 
 1. Throughput - Requests por segundo
 2. Latencia promedio por endpoint
-3. Requests activos (gauge)
+3. Requests activos 
 4. Total de requests
 5. Tasa de errores
 6. Latencia p95 por endpoint
